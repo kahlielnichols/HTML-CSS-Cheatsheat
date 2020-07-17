@@ -1,7 +1,16 @@
 .boxes {
     background-color: olive;
+    text-align: left;
+    font-size: 16pt;
     color: white;
     border: 2px solid black;
     margin: 20px;
     padding: 20px;
+  }
+  body{
+    background-image: url('https://www.stockvault.net/data/2018/12/27/258232/preview16.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  color: white;
   }
