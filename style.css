@@ -8,9 +8,72 @@
     padding: 20px;
   }
   body{
-    background-image: url('https://www.stockvault.net/data/2018/12/27/258232/preview16.jpg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbeNBtQKGT_1XNi7oy-1rLwT6BfpZPYuXbyg&usqp=CAU');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
   }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;  
+    background-color: aliceblue;  
+    color: #000;
+  }
+  .btn {
+    background-color: #2196F3;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .btn:hover, .dropdown:hover .btn {
+    background-color: #0b7dda;
+  }
+  .picture .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
