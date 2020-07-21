@@ -1,3 +1,4 @@
+
 .boxes {
     background-color: olivedrab;
     text-align: left;
@@ -80,5 +81,34 @@
   }
   .intro {
     text-align: left;
+  }
+  .zig-zag {
+      padding: 64px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .container {
+    padding: 64px;
   }
   
