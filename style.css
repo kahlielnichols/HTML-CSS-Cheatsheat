@@ -84,7 +84,8 @@
     text-align: left;
   }
   .zig-zag {
-     border: dotted, black;
+     border: double;
+     border-color: black;
      margin-left: 800px;
      margin-right: 0px;
   }
@@ -110,10 +111,23 @@
     max-width: 100%;
     margin: auto;
   }
-  
+
   .container {
     border: double;
     margin-right: 800px;
     margin-left: 45px;
   }
-  
+
+  .tags{
+    border: double;
+    border-color: black;
+    padding-bottom: 20px;
+    width: auto;
+    text-align: center;
+  }
+  .git {
+    border-color: black;
+    border: 3pt;
+    text-align: center;
+    padding: 20px;
+  }

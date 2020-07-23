@@ -21,7 +21,7 @@
     </head>
     <body>
         <h1>Git Cheat Sheet</h1>
-
+<div class="git">
         <h3>What is Git?</h3>
 
         <p>
@@ -67,6 +67,67 @@
           Git has the functionality, performance, security and flexibility that most teams and individual developers need. 
         </p>
 
+        <h2>Repository</h2>
+            <p>The overall package or project. There is typically a remote of origin respository, and a local copy of it at certain time on your local machine</p>
+        
+            <h2>Branch</h2>
+            <p>An extension of a repository. All repositories, or repos,start with a 'master' branch. From there, new branches can be created and used for new features. The idea is to keep the master branch clean and working for the final " done" project.</p>
+        
+            <h2>Commit</h2>
+            <p>a commit is a change to the repository. For every commit made, there is a recod of the state of the repository at that given point in time.</p>
+       
+            <h2>cd (change directory)</h2>
+            <p>--changes the directory or folder</p>
+       
+            <h2>cd </h2>
+            <p>-- will take you to the home directory</p>
+        
+            <h2>cd ..</h2>
+            <p>--moves up one directory</p>
+        
+            <h2>ls</h2>
+            <p>--lists the files or directories</p>
+       
+            <h2>git init</h2>
+            <p>--creates a new local respository in the current directory</p>
+       
+            <h2>git cheakout -b {branch name}</h2>
+            <p>--shorthand comman to create and switch to a new branch</p>
+        
+            <h2>git branch {branch name}</h2>
+            <p>--creates a new branch</p>
+        
+            <h2>git cheakout {branch name}</h2>
+            <p>--switches to the branch</p>
+       
+            <h2>git branch -a</h2>
+            <p>--displays all branches, both local and remote, that are available</p>
+        
+            <h2>git status -- RUN A LOT</h2>
+            <p>Tells what files have been added, deleted, and modified</p>
+            <p>Informs if the local branch is behind the remote version or if the version is ahead of the remote repository</p>
+        
+            <h2> git add {file, directory, or, other}</h2>
+             <p>-- stages the changes to be committed</p>
+       
+             <h2>git branch . --</h2>
+             <p>--stages all changes from the directory</p>
+       
+             <h2>git commit -m"" (commit message)</h2>
+            <p>--This commits the added changes locally and attaches the commit message to the commit</p>
+            <p>commit messages chould be short but decriptive of all the changes made</p>
+            <p>committing dose not push changes to the remote repository</p>
+        <h2>git push</h2>
+            <p>--takes the locally committed changes for a given branch and applies them to the local version</p>
+        
+              <h2>git push -u origin {branch name}</h2>
+            <p>-- This command is used for pushing to the remote repository with the specific branch name</p>
+        <h2>git pull</h2>
+            <p>-- takes the changes made to the remote repository and applies them to the local version</p>
+        <li> mkdir < folder name ></li>
+            <li>rmdir < folder name ></li>       
+    </ul>
+</div>
         <table style="width:100%">
             <tr>
               <th>Pros</th>
